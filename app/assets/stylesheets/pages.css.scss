@@ -1,0 +1,125 @@
+html, body {
+  font-family:"Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 970px;
+}
+.main {
+  background-color: #000;
+}
+#picture {
+  height: 120px;
+  width: 220px;
+}
+.pull-right {
+  position: relative;
+  padding-top: 40px;
+}
+.main li {
+  position: relative;
+  padding-left: 30px;
+}
+.b_default {
+  background-color: #000;
+  color: #0393ff;
+  border: 1px solid #0393ff;
+}
+.b_default:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #0393ff;
+}
+.main h1 {
+  color: #fff;
+  font-size: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header {
+  text-align: center;
+}
+#exampleBrowseCollection {
+  background-color: #000;
+  border: #000;
+  border-bottom: 1px solid #C1BDBD;
+  width: 400px;
+  border-radius: 0;
+  margin-right: 10px;
+}
+form {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.supporting {
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+.supporting h2 {
+  color: #0393ff;
+  font-size: 40px;
+  position: relative;
+  padding-top: 80px;
+}
+.supporting p {
+  color: #fff;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.supporting h2, p {
+  text-align: center;
+}
+.supporting img {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.feature {
+  height: 500px;
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding-top: 140px;
+}
+.feature h3 {
+  color: #0393ff;
+  font-size: 40px;
+}
+.feature p {
+  color: #fff;
+  font-size: 20px;
+}
+.footer {
+  background-color: #000;
+  position: relative;
+  padding-top: 20px;
+}
+.footer h6 {
+  color: #fff;
+  padding-left: 40px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.footer li {
+  color: #0393ff;
+  display: block;
+}
+.push {
+  position: relative;
+  padding-left: 300px;
+}
+.p-back {
+  position: relative;
+  padding-right: 100px;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+}
